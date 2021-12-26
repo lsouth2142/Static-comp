@@ -30,17 +30,25 @@ form {
 
 input {
     margin: 1.5rem;
+    width: 75%;
 }
 
 .breakline {
-    border: 1px solid black;
+    border: 1px solid rgb(141, 135, 135);
+    margin: 1.5rem;
 }
 
 span {
     display: flex;
+    justify-content: space-evenly;
 }
 
 img {
     width: 30px;
     height: 30px;
+}
+
+.submit-button {
+    width: 75%;
+    margin: auto;
 }
