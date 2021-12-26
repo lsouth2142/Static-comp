@@ -1,3 +1,7 @@
+main {
+    background-color: rgb(100 , 149 , 237);
+}
+
 header {
     display: flex;
     justify-content: right;
@@ -9,12 +13,14 @@ header {
     margin: 0.5rem;
     border: 1px solid black;
     border-radius: 2px;
-    background-color: rgb(0, 102, 255);
+    background-color: rgb(0100 , 149, 237);
 }
 
 .sign-up-form {
     display: flex;
     justify-content: center;
+
+    /* padding-bottom: ; */
     /* border: 2px solid red; */
     /* width: 75%; */
 }
@@ -23,9 +29,10 @@ form {
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
+    background-color: white;
     /* margin-bottom: 5rem; */
     /* width: 75%; */
-    border: 2px solid red
+    border: 1px solid black
 }
 
 input {
@@ -34,13 +41,14 @@ input {
 }
 
 .breakline {
-    border: 1px solid rgb(141, 135, 135);
+    border: 1px solid rgb(197, 190, 190);
     margin: 1.5rem;
 }
 
 span {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 1.5rem;
 }
 
 img {
@@ -49,6 +57,11 @@ img {
 }
 
 .submit-button {
-    width: 75%;
+    width: 80%;
     margin: auto;
+    background-color: rgb(0100 , 149, 237);
+}
+
+h1 {
+    margin-left: 1.5rem;
 }
