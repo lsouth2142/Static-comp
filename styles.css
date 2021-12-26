@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: right;
+    border-bottom: 1px solid black;
+    /* padding: 1rem; */
+}
+
+.header-button {
+    margin: 0.5rem;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: rgb(0, 102, 255);
+}
+
+.sign-up-form {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    /* width: 75%; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    /* margin-bottom: 5rem; */
+    /* width: 75%; */
+    border: 2px solid red
+}
+
+input {
+    margin: 1.5rem;
+}
+
+.breakline {
+    border: 1px solid black;
+}
+
+span {
+    display: flex;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
